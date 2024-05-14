@@ -1,0 +1,7 @@
+Dictionary:
+Notations: {
+@Qualifier = "Import de funções de outra classe";
+@GetMapping = "Criação de rota para o browser";
+@ComponentScan(basePackages = {"com.anotherlibrary.project"}) = "Import de outros pacotes. Apenas para classes fora da mesma estrutura: ex = fora de io.github.stealty"
+@Value("${nome.da.chave}") = "Importar variavel de application.properties"
+}
